@@ -20,14 +20,20 @@ indent_mode=3
 [project]
 name=stackchamber-blog
 base_path=/home/glizzok/Projects/stack-chamber
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=326;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fglizzok%2FProjects%2Fstack-chamber%2FDEVELOPMENT.md;0;4
+current_page=5
+FILE_NAME_0=452;Markdown;0;EUTF-8;0;1;0;%2Fhome%2Fglizzok%2FProjects%2Fstack-chamber%2FDEVELOPMENT.md;0;4
+FILE_NAME_1=1109;Python;0;EUTF-8;0;1;0;%2Fhome%2Fglizzok%2FProjects%2Fstack-chamber%2Fstackchamber_blog%2Fstackchamber_blog%2Fsettings.py;0;4
+FILE_NAME_2=1029;Python;0;EUTF-8;0;1;0;%2Fhome%2Fglizzok%2FProjects%2Fstack-chamber%2Fstackchamber_blog%2Fblog%2Fmodels.py;0;4
+FILE_NAME_3=458;Python;0;EUTF-8;0;1;0;%2Fhome%2Fglizzok%2FProjects%2Fstack-chamber%2Fstackchamber_blog%2Fblog%2Fadmin.py;0;4
+FILE_NAME_4=487;Python;0;EUTF-8;0;1;0;%2Fhome%2Fglizzok%2FProjects%2Fstack-chamber%2Fstackchamber_blog%2Fblog%2Fviews.py;0;4
+FILE_NAME_5=89;Python;0;EUTF-8;0;1;0;%2Fhome%2Fglizzok%2FProjects%2Fstack-chamber%2Fstackchamber_blog%2Fblog%2Furls.py;0;4
 
 [VTE]
 last_dir=/home/glizzok/Projects/stack-chamber/stackchamber_blog

@@ -1,0 +1,57 @@
+{% load static %} 
+{% load bulma_tags %} 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        {% block custom_css %}{% endblock %}
+    </head>
+    <body>
+        <section class="hero is-fullheight is-light">
+            <!-- Navbar-->
+            <div class="hero-head">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item">
+                                <img src="{% static 'imgs/site-logo.png' %}" alt="StackChamber">
+                            </a>
+                        </div>
+
+                        <div id="navbarMenu" class="navbar-menu">
+                            <div class="navbar-end">
+                                <a class="navbar-item" href="{% url 'blog:post_list' %}">Home</a>
+                                <a class="navbar-item" href="#">Suggestions</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Main content -->
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">StackChamber</h1>
+                    <div class="columns">
+                        <div class="column is-three-quarters">
+                            {% block content %} 
+                            {% endblock %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-->
+            <div class="hero-foot">
+                <footer class="footer">
+                    <div class="content has-text-centered">
+                        <p>
+                            <strong>Stack Chamber</strong> by <a href="https://github.com/nullchamber">Nullchamber Dev</a><div class=""></div>
+                        </p>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </body>
+</html>
